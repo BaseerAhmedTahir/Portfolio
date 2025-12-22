@@ -137,7 +137,7 @@ const Contact: React.FC = () => {
                 <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
                 <p>Systems Normal</p>
              </div>
-             <p>Engineered with React & Gemini</p>
+             <p>Engineered with React</p>
           </div>
         </Reveal>
       </div>
