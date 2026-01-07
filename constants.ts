@@ -43,7 +43,7 @@ export const EXPERIENCE: Experience[] = [
     company: "EVENTUS SOL",
     role: "AI Software Engineer",
     location: "Lahore, Pakistan",
-    period: "May 2024 - Oct 2025",
+    period: "May 2024 - DEC 2025",
     points: [
       "Architected and deployed Generative AI solutions for internal HR products.",
       "Spearheaded migration to AI-driven recruitment workflows.",
