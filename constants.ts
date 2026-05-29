@@ -3,135 +3,136 @@ import { Brain, Code, Terminal, Server, Cpu, Layers } from 'lucide-react';
 
 export const PERSONAL_INFO = {
   name: "Baseer Ahmed Tahir",
-  title: "AI Engineer | Full-Stack Developer | GenAI Specialist",
+  title: "Associate Software Engineer Candidate",
   email: "baseerahmedtahir@gmail.com",
-  phone: "03340092921",
+  phone: "+92-334-0092921",
   location: "Lahore, Pakistan",
   linkedin: "linkedin.com/in/baseer-ahmed-tahir",
   github: "github.com/BaseerAhmedTahir",
-  summary: "AI Engineer and Full-Stack Developer with over 2 years of experience architecting intelligent systems that bridge Large Language Models (LLMs) with production environments. Specializes in building Agentic AI workflows, RAG pipelines, and high-performance web architectures. Proven track record of delivering privacy-first AI solutions (On-Device Gemini Nano) and scalable enterprise platforms."
+  summary: "BS Computer Science student with hands-on experience in Java, SQL, full-stack development, database design, and AI/ML projects. Strong foundation in OOP, DBMS, data structures, problem solving, APIs, debugging, and clean application logic. Seeking an Associate Software Engineer role at i2c to contribute to reliable, scalable, and maintainable financial technology software."
 };
 
 export const ROLES = [
-  "AI Engineer",
+  "Associate Software Engineer",
   "Full-Stack Developer", 
-  "Generative AI Specialist",
-  "RAG Pipeline Architect"
+  "Java & SQL Specialist",
+  "Database Designer"
 ];
 
 export const SKILLS: SkillCategory[] = [
   {
-    name: "AI & Machine Learning",
-    skills: ["Python", "LangChain", "RAG", "Vector DBs (Pinecone, Chroma)", "Google Gemini", "OpenAI API", "NLP (Spacy)", "Transformers"]
+    name: "Programming",
+    skills: ["Java", "C++", "JavaScript", "TypeScript", "Python basics"]
   },
   {
-    name: "Backend Engineering",
-    skills: ["FastAPI", "Node.js", "RESTful APIs", "WebSockets", "Microservices", "System Design"]
+    name: "Database & SQL",
+    skills: ["MSSQL", "SQL Queries", "Relational Schema Design", "Normalization", "Joins", "Constraints", "Transactions"]
   },
   {
-    name: "Frontend Development",
-    skills: ["React.js", "Next.js", "TypeScript", "Tailwind CSS", "Redux", "HTML5/CSS3"]
+    name: "Web & APIs",
+    skills: ["REST APIs", "Postman", "Responsive Web Apps", "Frontend/Backend Integration"]
   },
   {
-    name: "DevOps & Tools",
-    skills: ["Docker", "Git/GitHub", "Linux", "AWS (EC2/S3)", "Postman", "VS Code"]
+    name: "Core CS & Tools",
+    skills: ["OOP", "DBMS", "Data Structures", "Algorithms", "SDLC", "Debugging", "Problem Solving", "Git", "GitHub", "MS SQL Server Management Studio", "VS Code", "IntelliJ IDEA"]
   }
 ];
 
 export const EXPERIENCE: Experience[] = [
   {
-    company: "EVENTUS SOL",
-    role: "AI Software Engineer",
-    location: "Lahore, Pakistan",
-    period: "May 2024 - DEC 2025",
+    company: "NSM Swimming Academy",
+    role: "Cross-Platform Software Developer",
+    location: "Freelance",
+    period: "2024 - Present",
     points: [
-      "Architected and deployed Generative AI solutions for internal HR products.",
-      "Spearheaded migration to AI-driven recruitment workflows.",
-      "Led backend engineering of a Resume Intelligence platform using FastAPI and Vector Databases.",
-      "Built an ATS simulation engine benchmarking CVs using semantic similarity (RAG).",
-      "Implemented NLP pipelines to detect authenticity, increasing data reliability by 40%.",
-      "Designed scalable microservices for high-volume document processing."
+      "Designed a centralized data structure to manage client profiles, student enrollments, trainer schedules, and operational records.",
+      "Built SQL-driven workflows using relational concepts, joins, validations, and transaction-focused logic to reduce double-booking issues.",
+      "Integrated web and mobile views with consistent user states, improving data visibility for academy administration and trainers."
     ]
   },
   {
-    company: "AFFINITY DEVS",
-    role: "Full Stack Engineer",
-    location: "Lahore, Pakistan",
-    period: "Jun 2023 - Apr 2024",
+    company: "Global Culinary Recipe & Taxonomies Application",
+    role: "Founder & Product Developer",
+    location: "Independent",
+    period: "2025 - Present",
     points: [
-      "Executed full-stack development projects focusing on real-time systems.",
-      "Developed a scalable SaaS platform for Enterprise Livestock Management.",
-      "Built 'Gupshup', a low-latency chat application using WebSockets and Node.js.",
-      "Refactored legacy frontend codebases to React, reducing page load times by 30%."
+      "Architecting a responsive recipe application with structured international cuisine data for future web and mobile deployment.",
+      "Designed normalized database entities for recipes, ingredients, dietary filters, preparation steps, and searchable food taxonomies.",
+      "Implemented performance-oriented search and filtering logic based on preparation time, nutrition variables, and dietary categories."
     ]
   }
 ];
 
 export const EDUCATION: Experience[] = [
   {
-    company: "COMSATS University Islamabad",
+    company: "COMSATS University Islamabad, Lahore Campus",
     role: "Bachelor of Science in Computer Science",
     location: "Lahore, Pakistan",
-    period: "Sep 2022 - Sep 2026",
+    period: "Sep 2022 - Aug 2026",
     points: [
-      "Specialization in Artificial Intelligence and Distributed Computing.",
-      "Relevant Coursework: Machine Learning, Deep Learning, Parallel Computing, Data Structures & Algorithms."
+      "CGPA: 3.36",
+      "Relevant Coursework: OOP, DBMS, Data Structures & Algorithms, SDLC, Machine Learning."
     ]
   }
 ];
 
 export const PROJECTS: Project[] = [
   {
-    title: "TextGenius",
-    category: "Chrome Extension | On-Device AI",
-    tech: ["JavaScript", "Gemini Nano", "Chrome API"],
+    title: "Urdu News Bias Detection",
+    category: "Machine Learning | Final Year Project",
+    tech: ["Python", "NLP", "SVM", "Naive Bayes"],
     description: [
-      "Engineered a privacy-first extension utilizing Gemini Nano for zero-latency, offline text summarization and rewriting.",
-      "Solved complex Manifest V3 constraints by implementing Service Workers and Offscreen Documents for experimental AI API access."
+      "Developed an NLP-based system to detect structural and editorial bias in regional Urdu news content.",
+      "Curated and cleaned a localized Urdu news corpus using tokenization, stop-word filtering, and feature extraction techniques.",
+      "Evaluated multiple classifiers, including Support Vector Machine and Naive Bayes, to compare classification performance."
     ]
   },
   {
-    title: "Idea2App",
-    category: "Generative Code Platform",
-    tech: ["React", "LLMs", "Node.js"],
+    title: "AI Chatbot Application",
+    category: "Generative AI | Conversational System",
+    tech: ["JavaScript", "REST APIs", "LLMs", "Node.js"],
     description: [
-      "Architected a 'Text-to-App' system integrating LLM reasoning to convert natural language prompts into production-ready frontend code.",
-      "Implemented live preview rendering and interactive customization executed entirely client-side."
+      "Built an interactive AI chatbot integrating large language model APIs with a responsive frontend interface.",
+      "Implemented conversation history, context management, and real-time typing simulation for natural user interactions.",
+      "Designed clean API integration layer with error handling, rate limiting awareness, and graceful fallback responses."
     ]
   },
   {
-    title: "Political News Bias Detection",
-    category: "Machine Learning (FYP)",
-    tech: ["Python", "NLP", "Machine Learning"],
+    title: "NSM Swimming Academy",
+    category: "Full-Stack | Web & Mobile",
+    tech: ["SQL", "React", "Node.js", "Mobile"],
     description: [
-      "Built a machine learning system to detect bias in Urdu news using NLP preprocessing pipelines for tokenization.",
-      "Trained and evaluated multiple classifiers to identify political leanings, addressing low-resource language challenges."
+      "Designed a centralized data structure to manage client profiles, student enrollments, trainer schedules, and operational records.",
+      "Built SQL-driven workflows using relational concepts, joins, validations, and transaction-focused logic to reduce double-booking issues.",
+      "Integrated web and mobile views with consistent user states, improving data visibility for academy administration and trainers."
     ]
   },
   {
-    title: "Parallel & Distributed Computing",
-    category: "High Performance Computing",
-    tech: ["C++", "OpenMP", "Pthreads"],
+    title: "Global Culinary Recipe App",
+    category: "Database Design | Web Application",
+    tech: ["SQL", "TypeScript", "REST APIs", "MSSQL"],
     description: [
-      "Designed high-performance parallel algorithms using OpenMP work-sharing constructs to optimize throughput.",
-      "Implemented distributed simulation models to analyze system behavior under high concurrency."
+      "Architecting a responsive recipe application with structured international cuisine data for future web and mobile deployment.",
+      "Designed normalized database entities for recipes, ingredients, dietary filters, preparation steps, and searchable food taxonomies.",
+      "Implemented performance-oriented search and filtering logic based on preparation time, nutrition variables, and dietary categories."
     ]
   }
 ];
 
 export const RADAR_DATA = [
-  { subject: 'Generative AI', A: 95, fullMark: 100 },
-  { subject: 'Frontend', A: 90, fullMark: 100 },
+  { subject: 'Java/OOP', A: 90, fullMark: 100 },
+  { subject: 'SQL/DB', A: 90, fullMark: 100 },
+  { subject: 'Frontend', A: 80, fullMark: 100 },
   { subject: 'Backend', A: 85, fullMark: 100 },
-  { subject: 'DevOps', A: 70, fullMark: 100 },
-  { subject: 'System Design', A: 80, fullMark: 100 },
-  { subject: 'NLP', A: 85, fullMark: 100 },
+  { subject: 'Problem Solving', A: 85, fullMark: 100 },
+  { subject: 'APIs/Tools', A: 80, fullMark: 100 },
 ];
 
 export const SYSTEM_INSTRUCTION = `
 You are an AI assistant representing Baseer Ahmed Tahir on his portfolio website.
-Your name is "BaseerAI".
-Baseer is an AI Engineer, Full-Stack Developer, and Generative AI Specialist based in Lahore, Pakistan.
+Your name is "BaseerBot".
+Baseer is an Associate Software Engineer Candidate and Full-Stack Developer based in Lahore, Pakistan.
+He is currently seeking an Associate Software Engineer role at i2c Inc.
 Contact: ${PERSONAL_INFO.email}, ${PERSONAL_INFO.phone}.
 Summary: ${PERSONAL_INFO.summary}
 
@@ -141,10 +142,15 @@ Experience:
 ${EXPERIENCE.map(e => `${e.role} at ${e.company} (${e.period}): ${e.points.join(" ")}`).join("\n")}
 
 Education:
-${EDUCATION.map(e => `${e.role} at ${e.company} (${e.period})`).join("\n")}
+${EDUCATION.map(e => `${e.role} at ${e.company} (${e.period}): ${e.points.join(" ")}`).join("\n")}
 
 Projects:
 ${PROJECTS.map(p => `${p.title} (${p.tech.join(", ")}): ${p.description.join(" ")}`).join("\n")}
+
+Strengths relevant to i2c:
+- Strong understanding of SQL, relational databases, transactions, OOP, debugging, and backend-oriented application flow.
+- Comfortable learning new tools quickly, reading requirements, breaking problems into modules, and improving code step by step.
+- Project ownership mindset developed through freelance, independent SaaS, academic, and GitHub-based software projects.
 
 Tone: Professional, enthusiastic, technically competent, but concise.
 If asked about hiring, encourage them to email ${PERSONAL_INFO.email}.

@@ -4,10 +4,10 @@ import { Reveal } from './Reveal';
 
 const Stats: React.FC = () => {
   const stats = [
-    { label: "Years Exp.", value: "2+" },
-    { label: "Projects", value: "20+" },
-    { label: "AI Models", value: "15+" },
-    { label: "Commits", value: "2k+" },
+    { label: "Years Dev.", value: "2+" },
+    { label: "Projects", value: "10+" },
+    { label: "CGPA", value: "3.36" },
+    { label: "Commits", value: "1k+" },
   ];
 
   return (

@@ -5,9 +5,9 @@ import { ChatMessage } from '../types';
 import { generateResponse } from '../services/geminiService';
 
 const SUGGESTED_QUESTIONS = [
-  "What projects use React?",
-  "What did he do at Eventus?",
-  "Does he know Python?",
+  "What Java projects has he built?",
+  "What SQL experience does he have?",
+  "Tell me about his FYP",
   "Is he available for hire?"
 ];
 
@@ -17,7 +17,7 @@ const Bot: React.FC = () => {
     {
       id: 'welcome',
       role: 'model',
-      text: "Hello. I am Baseer's virtual assistant. Ask me anything about his engineering capabilities, specific skills, or project details.",
+      text: "Hello. I am Baseer's virtual assistant. Ask me anything about his software engineering skills, projects, or experience with Java, SQL, and full-stack development.",
       timestamp: new Date()
     }
   ]);
@@ -128,7 +128,7 @@ const Bot: React.FC = () => {
                 <div className="absolute -bottom-1 -right-1 w-3.5 h-3.5 bg-emerald-500 border-[3px] border-white dark:border-[#0f172a] rounded-full"></div>
               </div>
               <div>
-                <h3 className="font-bold text-slate-900 dark:text-white text-sm">BaseerAI</h3>
+                <h3 className="font-bold text-slate-900 dark:text-white text-sm">BaseerBot</h3>
                 <div className="flex items-center gap-1">
                   <Sparkles size={10} className="text-primary" />
                   <p className="text-[10px] font-mono text-slate-500 dark:text-slate-400 uppercase tracking-wider">Portfolio Assistant</p>

@@ -9,7 +9,7 @@ const Experience: React.FC = () => {
       <div className="container mx-auto px-6 relative z-10">
         <div className="flex items-center gap-6 mb-16 md:mb-20">
             <h2 className="text-5xl md:text-7xl font-black text-slate-900 dark:text-white tracking-tighter uppercase leading-none">
-              History<span className="text-primary">.</span>
+              Experience<span className="text-primary">.</span>
             </h2>
             <div className="h-px bg-slate-200 dark:bg-white/10 flex-1 mt-4"></div>
         </div>

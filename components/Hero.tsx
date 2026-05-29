@@ -88,8 +88,8 @@ const Hero: React.FC = () => {
 
             <Reveal delay={0.3}>
               <p className="text-slate-600 dark:text-slate-400 max-w-xl md:max-w-2xl text-base md:text-xl font-light mb-10 md:mb-12 leading-relaxed px-4">
-                Architecting <span className="text-slate-900 dark:text-white font-medium border-b border-primary/50">Agentic AI</span> workflows & <span className="text-slate-900 dark:text-white font-medium border-b border-secondary/50">High-Scale</span> web systems.
-                <br className="hidden md:block"/> Turning research into production-grade software.
+                Building <span className="text-slate-900 dark:text-white font-medium border-b border-primary/50">Scalable Software</span> with <span className="text-slate-900 dark:text-white font-medium border-b border-secondary/50">Clean Architecture</span> & solid fundamentals.
+                <br className="hidden md:block"/> Java, SQL, OOP — engineering reliable solutions.
               </p>
             </Reveal>
 
@@ -100,7 +100,7 @@ const Hero: React.FC = () => {
                   className="group relative w-full sm:w-auto px-8 py-4 bg-slate-900 dark:bg-white text-white dark:text-slate-950 font-bold text-base rounded-full hover:scale-105 transition-all shadow-xl hover:shadow-2xl shadow-indigo-500/20 flex items-center justify-center gap-3 overflow-hidden"
                 >
                   <span className="relative z-10 flex items-center gap-2">
-                    Start a Project <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                    Let's Connect <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                   </span>
                   <div className="absolute inset-0 bg-gradient-to-r from-indigo-600 to-indigo-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300 dark:hidden"></div>
                 </MagneticButton>

@@ -44,7 +44,7 @@ const NavBar: React.FC<NavBarProps> = ({ darkMode, toggleTheme, toggleCommandPal
   const links = [
     { name: 'About', href: '#about' },
     { name: 'Work', href: '#projects' },
-    { name: 'History', href: '#experience' },
+    { name: 'Experience', href: '#experience' },
     { name: 'Contact', href: '#contact' },
   ];
 
@@ -78,7 +78,7 @@ const NavBar: React.FC<NavBarProps> = ({ darkMode, toggleTheme, toggleCommandPal
             <Terminal size={14} className="relative z-10" strokeWidth={3} />
           </div>
           <span className={`font-bold tracking-tight text-sm transition-all duration-300 text-slate-900 dark:text-white ${scrolled ? 'opacity-100' : 'opacity-100'}`}>
-            BASEER<span className="text-primary">.AI</span>
+            BASEER<span className="text-primary">.DEV</span>
           </span>
         </a>
 
